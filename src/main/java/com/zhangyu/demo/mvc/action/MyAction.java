@@ -5,6 +5,9 @@ import com.zhangyu.spring.annotation.Autowried;
 import com.zhangyu.spring.annotation.Controller;
 import com.zhangyu.spring.annotation.RequestMapping;
 
+/*
+拦截器
+*/
 @Controller
 public class MyAction {
 		@Autowried
