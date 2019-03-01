@@ -4,10 +4,10 @@
 	xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
 	version="2.4">
-	<display-name>Gupao Spring Application</display-name>
+	<display-name>Spring Application</display-name>
 
 	<servlet>
-		<servlet-name>gupaomvc</servlet-name>
+		<servlet-name>zhangyumvc</servlet-name>
 		<servlet-class>com.zhangyu.spring.servlet.DispatchServlet</servlet-class>
 		<init-param>
 			<param-name>contextConfigLocation</param-name>
@@ -17,7 +17,7 @@
 	</servlet>
 
 	<servlet-mapping>
-		<servlet-name>gupaomvc</servlet-name>
+		<servlet-name>zhangyumvc</servlet-name>
 		<url-pattern>/*</url-pattern>
 	</servlet-mapping>
 
