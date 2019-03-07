@@ -178,7 +178,7 @@ public class DispatchServlet extends HttpServlet {
             }
         }
     }
-
+    // 将第一位的大写字母变成小写
     private String lowerFirstCase(String str) {
         char[] chars = str.toCharArray();
         chars[0] += 32;
