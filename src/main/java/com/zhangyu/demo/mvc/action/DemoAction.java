@@ -5,7 +5,6 @@ import com.zhangyu.spring.annotation.Autowried;
 import com.zhangyu.spring.annotation.Controller;
 import com.zhangyu.spring.annotation.RequestMapping;
 import com.zhangyu.spring.annotation.RequestParam;
-
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
@@ -30,6 +29,5 @@ public class DemoAction {
 
     @RequestMapping("/edit.json")
     public void edit(HttpServletRequest req, HttpServletResponse resp, Integer id) {
-
     }
 }
